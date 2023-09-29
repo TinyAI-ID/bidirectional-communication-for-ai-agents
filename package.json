@@ -1,0 +1,19 @@
+{
+  "name": "bidirectional-communication-for-ai-agents",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "daemon": "node daemon.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ably": "^1.2.45",
+    "dotenv": "^16.3.1",
+    "langchain": "^0.0.155",
+    "ws": "^8.14.2"
+  }
+}
